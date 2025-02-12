@@ -1,0 +1,210 @@
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*BASE STYLES*/
+body {
+    background-color: #C2E5FF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-size: 1.3em;
+    padding-left: 1em;
+}
+
+h2 {
+    padding-left: 1em;
+}
+
+img {
+    border: #3DADFF solid 10px;
+    border-style: groove;
+}
+/*Styles all paragraphs, adds a colored/filled border and aligns text to center*/
+.cent_text {
+    text-align: center;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    background-color: #3DADFF;
+    border: #3DADFF solid 8px;
+    border-radius: 1em;
+}
+
+/*NORMAL STYLES*/
+.header {
+    background-color: #3DADFF;
+}
+
+.nav {
+    min-height: 60px;
+    max-width: 1800px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.nav_list {
+    display: flex;
+    column-gap: 100px;
+    list-style: none;
+}
+/*STYLING FOR LINKS IN NAVBAR*/
+.nav_link {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 32px;
+    transition: all 0.4s;
+    position: relative;
+}
+
+.nav_link:hover, .nav_link:focus {
+    color: rgba(255, 255, 255, 1);
+}
+
+.nav_link::after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: blue;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: all 0.2s;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.nav_link:hover::after {
+    opacity: 1;
+}
+/*STYLES ALL LEVEL 1 HEADINGS IN WEBPAGE*/
+h1 {
+    text-align: center;
+    font-size: 35px;
+}
+/*STYLING FOR ABOUT PAGE*/
+#warriors {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18em;
+}
+
+.val_video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#sunSet_text {
+    text-align: center;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    background-color: #3DADFF;
+    border: #3DADFF solid 8px;
+    border-radius: 1em;
+}
+/*Styles link to be a red button*/
+#harborF {
+    color: yellow;
+    background-color: red;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    border: red solid 3px;
+    border-radius: 1em;
+}
+
+/*STYLING FOR HISTORY PAGE*/
+#val_day {
+    display: block;
+    width: 20em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    height: 1.1em;
+    background-color: #3DADFF;
+}
+
+.citations {
+    list-style-type: disc;
+    padding-left: 2em;
+}
+
+
+#video_heading {
+    text-align: center;
+}
+
+/*ALL STYLING FOR GRANDPA PAGE*/
+#Cars {
+    width: 900px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#top5 {
+    background-color: #3DADFF;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 1em;
+}
+
+.gran_pics {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+#flag {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+#jetskie {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+.golf_pics {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+/*RESIZES EACH IMAGE IN TABLE*/
+.table_img {
+    width: 200px;
+}
+
+/*COPYRIGHT FOR BOTTOM OF PAGE*/
+.copyright {
+    font-size: small;
+    text-align: left;
+}
